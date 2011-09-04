@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="60sp" android:layout_marginTop="10px">
+<TextView android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:text="MM/DD" android:textSize="20sp" android:paddingLeft="10px" android:textColor="#000" android:id="@+id/lbl_fm04_date">
+</TextView>
+ <ImageButton
+  android:layout_height="wrap_content" android:id="@+id/btn_fm04_save" android:src="@drawable/ic_menu_save"
+   android:layout_width="wrap_content" android:layout_marginLeft="80px"/>
+ <ImageButton
+  android:layout_height="wrap_content" android:id="@+id/btn_fm04_del" android:layout_width="wrap_content" android:layout_marginLeft="40px" android:src="@drawable/ic_menu_delete"/>
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="10px">
+ <Button android:text="Start" android:id="@+id/btn_fm4_start" android:layout_height="60sp" android:layout_width="60sp">
+ </Button>
+ <TextView android:layout_height="wrap_content" android:paddingLeft="10px" android:textColor="#000" android:id="@+id/lbl_fm04_start" android:layout_marginLeft="10px" android:text="HH:MM" android:layout_width="wrap_content">
+ </TextView>
+ <Button android:text="End" android:id="@+id/btn_fm4_end" android:layout_height="60sp" android:layout_width="60sp" android:layout_marginLeft="10px">
+ </Button>
+ <TextView android:layout_height="wrap_content" android:paddingLeft="10px" android:textColor="#000" android:id="@+id/lbl_fm04_end" android:layout_marginLeft="10px" android:text="HH:MM" android:layout_width="wrap_content">
+ </TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_marginTop="10px" android:orientation="horizontal" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout02B" android:layout_width="wrap_content"
+ android:layout_marginTop="10px" android:orientation="vertical" android:layout_height="fill_parent" android:gravity="center_vertical">
+<TextView android:textColor="#000" android:paddingLeft="10px"
+ android:id="@+id/lbl_fm04_memo" android:text="Memo:" android:layout_width="60sp" android:layout_height="60sp">
+</TextView>
+ <ImageButton
+  android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_fm04_rec"
+  android:src="@drawable/ic_btn_speak_now" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+ <EditText android:editable="true" android:layout_height="150sp" android:gravity="top" android:layout_width="fill_parent" android:id="@+id/txt_fm04_memo" android:layout_marginRight="5px">
+ </EditText>
+
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+ <TextView android:layout_height="wrap_content" android:paddingLeft="10px" android:id="@+id/lbl_fm04_str0"
+  android:layout_marginLeft="10px" android:layout_width="wrap_content" android:text="@string/str_fm03_memo" android:textColor="#0000FF">
+ </TextView>
+</LinearLayout>
+</LinearLayout>

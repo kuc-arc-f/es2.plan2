@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:visibility="invisible"/>
+  <!-- リストビュー -->
+  <ListView
+     android:id="@android:id/list"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:background="#FFF"/>
+  <!-- リストが空の場合に表示するテキストビュー -->
+  <!-- リストが空の場合に表示するテキストビュー -->
+  <TextView
+     android:id="@android:id/empty"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:text="Data is Nothing."
+      android:paddingLeft="10px" android:textColor="#000"/>
+         
+</LinearLayout>

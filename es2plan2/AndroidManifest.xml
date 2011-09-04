@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.kuc_arc_f.app.plan2"
+      android:versionCode="1"
+      android:versionName="1.0.2">
+    <application android:label="@string/app_name" android:icon="@drawable/icon_0319b">
+        <activity android:name=".QAFM002Activity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     	<activity android:name="QAFM003Activity"/>
+     	<activity android:name="QAFM004Activity"/>
+     	<activity android:name="QAFM005Activity"/>
+    </application>
+ <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+ <uses-permission android:name="android.permission.VIBRATE"/>
+ <uses-sdk android:minSdkVersion="4" />
+</manifest> 

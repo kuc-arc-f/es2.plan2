@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QAFM001Activity!</string>
+    <string name="app_name">es2.plan2</string>
+<string name="str_fm03_memo">* max 140 char</string>
+</resources>
