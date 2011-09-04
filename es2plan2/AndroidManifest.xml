@@ -11,6 +11,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
      	<activity android:name="QAFM003Activity"/>
      	<activity android:name="QAFM004Activity"/>
      	<activity android:name="QAFM005Activity"/>
